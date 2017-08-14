@@ -37,10 +37,12 @@ body{
 
 a:link {
     text-decoration: none;
+    color: #777777;
 }
 
 a:visited {
     text-decoration: none;
+    color: #777777;
 }
 
 #Navigation-links-About{	
