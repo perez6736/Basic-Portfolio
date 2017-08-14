@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="assets/css/reset.css">
 
 
-<title>Portfolio</title>
+<title>Home</title>
 </head>
 
 <body>
@@ -16,25 +16,34 @@
 		<h1>Daniel Perez</h1>
 	</div>
 	<div class="Navigation-links">
-		<div id ="Navigation-links-About"> About </div>
-		<div id ="Navigation-links-Portofolio">Portfolio</div>
-		<div id ="Navigation-links-Contact">Contact</div>
+		<div id ="Navigation-links-About"> <a href="index.html">About</a> </div>
+		<div id ="Navigation-links-Portofolio"><a href="Portfolio.html">Portfolio</a></div>
+		<div id ="Navigation-links-Contact"><a href="contact.html">Contact</a></div>
 	</div>
 </div> 
 </header>
 
-<div class="aboutMe"> 
-	<h2>About Me</h2>
-	<p>this is the body section</p> 
+<div class="body-container"> 
+	<h2 id="body-Header">About Me</h2>
+	<hr class="style1">
+	<div class="content">
+		<p>this is the body section</p> 
+	</div>
+</div>
 
-	<div class="contactMe-Social">
-		<p>This is  where the contact me stuff will go. (Will be on every page.) </p>
+<div class="contactMe-Social">
+	<h2 id="Contact-me"> Contact me! </h2>
+	<hr class="style1">
+	<div class="social-icons">
+		<img id="github-Icon" src="assets/images/githubicon.png">
+		<img id="Linkedin-Icon" src="assets/images/linkedInIcon.png">
+		<img id="stackoverflow-Icon" src="assets/images/stackoverflowIcon.png">
 	</div>
 </div>
 
 <footer>
 <div class="footer"> 
-	<p>Footer.</p> 
+	<p>&copy; Copyright2017 Daniel Perez</p>
 </div>
 </footer>
 

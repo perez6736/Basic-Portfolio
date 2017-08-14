@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/reset.css">
 
-<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
 
-<title>Portfolio</title>
+<title>Contact</title>
 </head>
 
 <body>
+
+<header>
 <div class="header"> 
-	<p>This is the header (Will be on every page.)</p>
+	<div class="name">
+		<h1>Daniel Perez</h1>
+	</div>
 	<div class="Navigation-links">
-		<p>The links to navigate through this site will go here. (Will be on every page.)</p>
+		<div id ="Navigation-links-About"> <a href="index.html">About</a> </div>
+		<div id ="Navigation-links-Portofolio"><a href="Portfolio.html">Portfolio</a></div>
+		<div id ="Navigation-links-Contact"><a href="contact.html">Contact</a></div>
 	</div>
 </div> 
+</header>
 
-<div class="ContactMe"> 
-	<p>Contact me form will go here. </p> 
-
-	<div class="contactMe-Social">
-		<p>This is  where the contact me stuff will go. (Will be on every page. </p>
+<div class="body-container"> 
+	<h2 id="body-Header">About Me</h2>
+	<hr class="style1">
+	<div class="content">
+		<form>
+	  	Nameame: <br>
+	  	<input class="textbox" type="text" name="user">
+	  	<br>
+	  	<br>
+	  	Email: <br>
+	  	<input class="textbox" type="text" name="user">
+		</form>
+		<br>
+		<textarea class="textarea" name="message" rows="10" cols="30">
+		</textarea> 
 	</div>
 </div>
 
-<div class="footer"> 
-	<p>this is the footer section</p> 
+<div class="contactMe-Social">
+	<h2 id="Contact-me"> Contact me! </h2>
+	<hr class="style1">
+	<div class="social-icons">
+		<img id="github-Icon" src="assets/images/githubicon.png">
+		<img id="Linkedin-Icon" src="assets/images/linkedInIcon.png">
+		<img id="stackoverflow-Icon" src="assets/images/stackoverflowIcon.png">
+	</div>
 </div>
+
+<footer>
+<div class="footer"> 
+	<p>&copy; Copyright2017 Daniel Perez</p> 
+</div>
+</footer>
 
 </body>
 
