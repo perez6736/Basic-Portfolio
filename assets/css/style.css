@@ -93,7 +93,7 @@ a:visited {
 }
 
 hr.style1{
-	border-top: 1px solid #8c8b8b;
+	border-top: 1px solid #cccccc;
 	width:95%; 
 }
 
@@ -126,6 +126,7 @@ hr.style1{
 	padding-top: 10px;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	
 }
 
 #github-Icon{
@@ -175,7 +176,7 @@ hr.style1{
 .button-submit{
 	background-color:#4aaaa5;
     border: none;
-    color: white;
+    color: #ffffff;
     padding: 15px 32px;
     margin-top: 15px;
     margin-left: 10px;
