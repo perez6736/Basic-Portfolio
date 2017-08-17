@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -162,8 +166,7 @@ hr.style1{
 
 
 .footer{
-	position: fixed;
-	bottom: 0;
+	margin-top: 700px; /* just made the margin slightly larger than the height of the body so its never in the way - resizing is a big issue in this */
 	background-color: #666666;
 	width: 100%;
 	height: 25px;
@@ -203,3 +206,20 @@ hr.style1{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.placeholder-image{
+	height: 160px;
+    width: 200px;
+}
+
+.placeholder-text{
+	position: relative;
+    bottom: 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #4AAAA5;
+    text-align: center;
+    padding-top: 10px;
+    color: #E9F1E9;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
