@@ -207,8 +207,15 @@ hr.style1{
 }
 
 .placeholder-image{
+
 	height: 160px;
     width: 200px;
+}
+
+.placeholder-projects{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
 }
 
 .placeholder-text{
